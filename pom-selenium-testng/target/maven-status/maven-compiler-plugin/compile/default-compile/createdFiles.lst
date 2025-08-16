@@ -1,0 +1,15 @@
+pages/ConfirmOrder.class
+pages/Delete_product.class
+pages/AddProduct.class
+pages/AddNewProduct.class
+pages/ViewProducts.class
+utils/BaseTest.class
+pages/Billing_Details.class
+pages/RegisterPage.class
+pages/ForgotPassword.class
+pages/Search_and_add.class
+pages/Homepage.class
+pages/PaymentMethod.class
+pages/DeliveryMethod.class
+utils/WaitHelper.class
+pages/Checkout_options.class

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-16T05:25:42 CST" name="SuiteCompleta" finished-at="2025-08-16T05:25:56 CST" duration-ms="14198">
+    <groups>
+    </groups>
+    <test started-at="2025-08-16T05:25:42 CST" name="FlujoE2E" finished-at="2025-08-16T05:25:56 CST" duration-ms="14198">
+      <class name="tests.payment_method_test">
+        <test-method signature="test_payment_method()[pri:0, instance:tests.payment_method_test@363ee3a2]" started-at="2025-08-16T05:25:54 CST" name="test_payment_method" finished-at="2025-08-16T05:25:55 CST" duration-ms="1152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_payment_method -->
+      </class> <!-- tests.payment_method_test -->
+      <class name="tests.forgotteh_password_test">
+        <test-method signature="fogotten_password_test()[pri:0, instance:tests.forgotteh_password_test@79b06cab]" started-at="2025-08-16T05:25:56 CST" name="fogotten_password_test" finished-at="2025-08-16T05:25:56 CST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fogotten_password_test -->
+      </class> <!-- tests.forgotteh_password_test -->
+      <class name="tests.confirm_order_test">
+        <test-method signature="confirm_order_test()[pri:0, instance:tests.confirm_order_test@4690b489]" started-at="2025-08-16T05:25:55 CST" name="confirm_order_test" finished-at="2025-08-16T05:25:56 CST" duration-ms="809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirm_order_test -->
+      </class> <!-- tests.confirm_order_test -->
+      <class name="tests.billing_details_test">
+        <test-method signature="billl_details_test()[pri:0, instance:tests.billing_details_test@2ea227af]" started-at="2025-08-16T05:25:51 CST" name="billl_details_test" finished-at="2025-08-16T05:25:53 CST" duration-ms="2340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- billl_details_test -->
+      </class> <!-- tests.billing_details_test -->
+      <class name="tests.delete_producto_test">
+        <test-method signature="test_realizar_busqueda()[pri:0, instance:tests.delete_producto_test@4ddced80]" started-at="2025-08-16T05:25:49 CST" name="test_realizar_busqueda" finished-at="2025-08-16T05:25:49 CST" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_realizar_busqueda -->
+      </class> <!-- tests.delete_producto_test -->
+      <class name="tests.homepage_test">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:tests.homepage_test@60d8c9b7]" started-at="2025-08-16T05:25:38 CST" name="setUpSuite" finished-at="2025-08-16T05:25:42 CST" duration-ms="3520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method signature="loginValido()[pri:0, instance:tests.homepage_test@60d8c9b7]" started-at="2025-08-16T05:25:42 CST" name="loginValido" finished-at="2025-08-16T05:25:45 CST" duration-ms="2483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValido -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:tests.homepage_test@60d8c9b7]" started-at="2025-08-16T05:26:01 CST" name="tearDownSuite" finished-at="2025-08-16T05:26:01 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- tests.homepage_test -->
+      <class name="tests.search_and_add_test">
+        <test-method signature="test_realizar_busqueda()[pri:0, instance:tests.search_and_add_test@65466a6a]" started-at="2025-08-16T05:25:48 CST" name="test_realizar_busqueda" finished-at="2025-08-16T05:25:49 CST" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_realizar_busqueda -->
+      </class> <!-- tests.search_and_add_test -->
+      <class name="tests.add_car_test">
+        <test-method signature="test_agregar_producto()[pri:0, instance:tests.add_car_test@4b14c583]" started-at="2025-08-16T05:25:48 CST" name="test_agregar_producto" finished-at="2025-08-16T05:25:48 CST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_agregar_producto -->
+      </class> <!-- tests.add_car_test -->
+      <class name="tests.viewProducts_test">
+        <test-method signature="test_ver_productos()[pri:0, instance:tests.viewProducts_test@5c909414]" started-at="2025-08-16T05:25:47 CST" name="test_ver_productos" finished-at="2025-08-16T05:25:48 CST" duration-ms="682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ver_productos -->
+      </class> <!-- tests.viewProducts_test -->
+      <class name="tests.registerPage_test">
+        <test-method signature="continuarRegistro()[pri:0, instance:tests.registerPage_test@433d61fb]" started-at="2025-08-16T05:25:45 CST" name="continuarRegistro" finished-at="2025-08-16T05:25:47 CST" duration-ms="2738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continuarRegistro -->
+      </class> <!-- tests.registerPage_test -->
+      <class name="tests.checkout_options_test">
+        <test-method signature="test_chekout_options()[pri:0, instance:tests.checkout_options_test@78e117e3]" started-at="2025-08-16T05:25:50 CST" name="test_chekout_options" finished-at="2025-08-16T05:25:51 CST" duration-ms="786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_chekout_options -->
+      </class> <!-- tests.checkout_options_test -->
+      <class name="tests.add_new_product_test">
+        <test-method signature="agrega_nuevo_producto()[pri:0, instance:tests.add_new_product_test@1534f01b]" started-at="2025-08-16T05:25:50 CST" name="agrega_nuevo_producto" finished-at="2025-08-16T05:25:50 CST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- agrega_nuevo_producto -->
+        <test-method signature="ver_productos_carrito()[pri:0, instance:tests.add_new_product_test@1534f01b]" started-at="2025-08-16T05:25:50 CST" name="ver_productos_carrito" finished-at="2025-08-16T05:25:50 CST" duration-ms="422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ver_productos_carrito -->
+      </class> <!-- tests.add_new_product_test -->
+      <class name="tests.delivery_metohd_test">
+        <test-method signature="test_delivery_metohd()[pri:0, instance:tests.delivery_metohd_test@4386f16]" started-at="2025-08-16T05:25:53 CST" name="test_delivery_metohd" finished-at="2025-08-16T05:25:54 CST" duration-ms="1008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_delivery_metohd -->
+      </class> <!-- tests.delivery_metohd_test -->
+    </test> <!-- FlujoE2E -->
+  </suite> <!-- SuiteCompleta -->
+</testng-results>

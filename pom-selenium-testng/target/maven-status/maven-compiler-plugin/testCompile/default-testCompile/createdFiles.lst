@@ -1,0 +1,13 @@
+tests/homepage_test.class
+tests/add_new_product_test.class
+tests/registerPage_test.class
+tests/checkout_options_test.class
+tests/billing_details_test.class
+tests/add_car_test.class
+tests/delivery_metohd_test.class
+tests/payment_method_test.class
+tests/confirm_order_test.class
+tests/viewProducts_test.class
+tests/search_and_add_test.class
+tests/delete_producto_test.class
+tests/forgotteh_password_test.class

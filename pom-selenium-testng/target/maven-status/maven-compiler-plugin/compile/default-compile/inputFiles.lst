@@ -1,0 +1,15 @@
+/Users/odm/Documents/Proyectos Intellij IDEA/pom-selenium-testng/src/main/java/pages/AddNewProduct.java
+/Users/odm/Documents/Proyectos Intellij IDEA/pom-selenium-testng/src/main/java/pages/AddProduct.java
+/Users/odm/Documents/Proyectos Intellij IDEA/pom-selenium-testng/src/main/java/pages/Billing_Details.java
+/Users/odm/Documents/Proyectos Intellij IDEA/pom-selenium-testng/src/main/java/pages/Checkout_options.java
+/Users/odm/Documents/Proyectos Intellij IDEA/pom-selenium-testng/src/main/java/pages/ConfirmOrder.java
+/Users/odm/Documents/Proyectos Intellij IDEA/pom-selenium-testng/src/main/java/pages/Delete_product.java
+/Users/odm/Documents/Proyectos Intellij IDEA/pom-selenium-testng/src/main/java/pages/DeliveryMethod.java
+/Users/odm/Documents/Proyectos Intellij IDEA/pom-selenium-testng/src/main/java/pages/ForgotPassword.java
+/Users/odm/Documents/Proyectos Intellij IDEA/pom-selenium-testng/src/main/java/pages/Homepage.java
+/Users/odm/Documents/Proyectos Intellij IDEA/pom-selenium-testng/src/main/java/pages/PaymentMethod.java
+/Users/odm/Documents/Proyectos Intellij IDEA/pom-selenium-testng/src/main/java/pages/RegisterPage.java
+/Users/odm/Documents/Proyectos Intellij IDEA/pom-selenium-testng/src/main/java/pages/Search_and_add.java
+/Users/odm/Documents/Proyectos Intellij IDEA/pom-selenium-testng/src/main/java/pages/ViewProducts.java
+/Users/odm/Documents/Proyectos Intellij IDEA/pom-selenium-testng/src/main/java/utils/BaseTest.java
+/Users/odm/Documents/Proyectos Intellij IDEA/pom-selenium-testng/src/main/java/utils/WaitHelper.java

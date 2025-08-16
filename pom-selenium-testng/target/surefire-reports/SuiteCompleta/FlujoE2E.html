@@ -1,0 +1,150 @@
+<html>
+<head>
+<title>TestNG:  FlujoE2E</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>FlujoE2E</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Aug 16 05:25:42 CST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>14 seconds (14198 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.confirm_order_test.confirm_order_test()'><b>confirm_order_test</b><br>Test class: tests.confirm_order_test</td>
+<td></td>
+<td>0</td>
+<td>tests.confirm_order_test@4690b489</td></tr>
+<tr>
+<td title='tests.viewProducts_test.test_ver_productos()'><b>test_ver_productos</b><br>Test class: tests.viewProducts_test</td>
+<td></td>
+<td>0</td>
+<td>tests.viewProducts_test@5c909414</td></tr>
+<tr>
+<td title='tests.billing_details_test.billl_details_test()'><b>billl_details_test</b><br>Test class: tests.billing_details_test</td>
+<td></td>
+<td>2</td>
+<td>tests.billing_details_test@2ea227af</td></tr>
+<tr>
+<td title='tests.payment_method_test.test_payment_method()'><b>test_payment_method</b><br>Test class: tests.payment_method_test</td>
+<td></td>
+<td>1</td>
+<td>tests.payment_method_test@363ee3a2</td></tr>
+<tr>
+<td title='tests.delivery_metohd_test.test_delivery_metohd()'><b>test_delivery_metohd</b><br>Test class: tests.delivery_metohd_test</td>
+<td></td>
+<td>1</td>
+<td>tests.delivery_metohd_test@4386f16</td></tr>
+<tr>
+<td title='tests.forgotteh_password_test.fogotten_password_test()'><b>fogotten_password_test</b><br>Test class: tests.forgotteh_password_test</td>
+<td></td>
+<td>0</td>
+<td>tests.forgotteh_password_test@79b06cab</td></tr>
+<tr>
+<td title='tests.search_and_add_test.test_realizar_busqueda()'><b>test_realizar_busqueda</b><br>Test class: tests.search_and_add_test</td>
+<td></td>
+<td>0</td>
+<td>tests.search_and_add_test@65466a6a</td></tr>
+<tr>
+<td title='tests.delete_producto_test.test_realizar_busqueda()'><b>test_realizar_busqueda</b><br>Test class: tests.delete_producto_test</td>
+<td></td>
+<td>0</td>
+<td>tests.delete_producto_test@4ddced80</td></tr>
+<tr>
+<td title='tests.add_new_product_test.agrega_nuevo_producto()'><b>agrega_nuevo_producto</b><br>Test class: tests.add_new_product_test</td>
+<td></td>
+<td>0</td>
+<td>tests.add_new_product_test@1534f01b</td></tr>
+<tr>
+<td title='tests.checkout_options_test.test_chekout_options()'><b>test_chekout_options</b><br>Test class: tests.checkout_options_test</td>
+<td></td>
+<td>0</td>
+<td>tests.checkout_options_test@78e117e3</td></tr>
+<tr>
+<td title='tests.registerPage_test.continuarRegistro()'><b>continuarRegistro</b><br>Test class: tests.registerPage_test</td>
+<td></td>
+<td>2</td>
+<td>tests.registerPage_test@433d61fb</td></tr>
+<tr>
+<td title='tests.add_new_product_test.ver_productos_carrito()'><b>ver_productos_carrito</b><br>Test class: tests.add_new_product_test</td>
+<td></td>
+<td>0</td>
+<td>tests.add_new_product_test@1534f01b</td></tr>
+<tr>
+<td title='tests.homepage_test.loginValido()'><b>loginValido</b><br>Test class: tests.homepage_test</td>
+<td></td>
+<td>2</td>
+<td>tests.homepage_test@60d8c9b7</td></tr>
+<tr>
+<td title='tests.add_car_test.test_agregar_producto()'><b>test_agregar_producto</b><br>Test class: tests.add_car_test</td>
+<td></td>
+<td>0</td>
+<td>tests.add_car_test@4b14c583</td></tr>
+</table><p>
+</body>
+</html>

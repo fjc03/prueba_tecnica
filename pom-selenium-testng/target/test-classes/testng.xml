@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SuiteCompleta" verbose="1" parallel="false">
+  <test name="FlujoE2E">
+    <classes>
+      <class name="tests.homepage_test"/>
+      <class name="tests.registerPage_test"/>
+      <class name="tests.viewProducts_test"/>
+      <class name="tests.add_car_test"/>
+      <class name="tests.search_and_add_test"/>
+      <class name="tests.delete_producto_test"/>
+      <class name="tests.add_new_product_test"/>
+      <class name="tests.checkout_options_test"/>
+      <class name="tests.billing_details_test"/>
+      <class name="tests.delivery_metohd_test"/>
+      <class name="tests.payment_method_test"/>
+      <class name="tests.confirm_order_test"/>
+      <class name="tests.forgotteh_password_test"/>
+    </classes>
+  </test>
+</suite>

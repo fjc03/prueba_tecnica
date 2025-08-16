@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SuiteCompleta" class="navigator-link">
+              <span class="suite-name border-passed">SuiteCompleta</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SuiteCompleta" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SuiteCompleta" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SuiteCompleta" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SuiteCompleta" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SuiteCompleta" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SuiteCompleta" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SuiteCompleta" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SuiteCompleta" class="hide-methods passed suite-SuiteCompleta"> (hide)</a> <!-- hide-methods passed suite-SuiteCompleta -->
+                      <a href="#" panel-name="suite-SuiteCompleta" class="show-methods passed suite-SuiteCompleta"> (show)</a> <!-- show-methods passed suite-SuiteCompleta -->
+                    </span>
+                    <div class="method-list-content passed suite-SuiteCompleta">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteCompleta" title="tests.add_new_product_test" class="method navigator-link" hash-for-method="agrega_nuevo_producto">agrega_nuevo_producto</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteCompleta" title="tests.billing_details_test" class="method navigator-link" hash-for-method="billl_details_test">billl_details_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteCompleta" title="tests.confirm_order_test" class="method navigator-link" hash-for-method="confirm_order_test">confirm_order_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteCompleta" title="tests.registerPage_test" class="method navigator-link" hash-for-method="continuarRegistro">continuarRegistro</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteCompleta" title="tests.forgotteh_password_test" class="method navigator-link" hash-for-method="fogotten_password_test">fogotten_password_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteCompleta" title="tests.homepage_test" class="method navigator-link" hash-for-method="loginValido">loginValido</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteCompleta" title="tests.add_car_test" class="method navigator-link" hash-for-method="test_agregar_producto">test_agregar_producto</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteCompleta" title="tests.checkout_options_test" class="method navigator-link" hash-for-method="test_chekout_options">test_chekout_options</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteCompleta" title="tests.delivery_metohd_test" class="method navigator-link" hash-for-method="test_delivery_metohd">test_delivery_metohd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteCompleta" title="tests.payment_method_test" class="method navigator-link" hash-for-method="test_payment_method">test_payment_method</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteCompleta" title="tests.search_and_add_test" class="method navigator-link" hash-for-method="test_realizar_busqueda">test_realizar_busqueda</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteCompleta" title="tests.delete_producto_test" class="method navigator-link" hash-for-method="test_realizar_busqueda">test_realizar_busqueda</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteCompleta" title="tests.viewProducts_test" class="method navigator-link" hash-for-method="test_ver_productos">test_ver_productos</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteCompleta" title="tests.add_new_product_test" class="method navigator-link" hash-for-method="ver_productos_carrito">ver_productos_carrito</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SuiteCompleta -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SuiteCompleta" class="panel SuiteCompleta">
+          <div class="suite-SuiteCompleta-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.add_new_product_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="agrega_nuevo_producto">
+                  </a> <!-- agrega_nuevo_producto -->
+                  <span class="method-name">agrega_nuevo_producto</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ver_productos_carrito">
+                  </a> <!-- ver_productos_carrito -->
+                  <span class="method-name">ver_productos_carrito</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteCompleta-class-passed -->
+          <div class="suite-SuiteCompleta-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.checkout_options_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_chekout_options">
+                  </a> <!-- test_chekout_options -->
+                  <span class="method-name">test_chekout_options</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteCompleta-class-passed -->
+          <div class="suite-SuiteCompleta-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.delivery_metohd_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_delivery_metohd">
+                  </a> <!-- test_delivery_metohd -->
+                  <span class="method-name">test_delivery_metohd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteCompleta-class-passed -->
+          <div class="suite-SuiteCompleta-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.delete_producto_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_realizar_busqueda">
+                  </a> <!-- test_realizar_busqueda -->
+                  <span class="method-name">test_realizar_busqueda</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteCompleta-class-passed -->
+          <div class="suite-SuiteCompleta-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.homepage_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginValido">
+                  </a> <!-- loginValido -->
+                  <span class="method-name">loginValido</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteCompleta-class-passed -->
+          <div class="suite-SuiteCompleta-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.confirm_order_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirm_order_test">
+                  </a> <!-- confirm_order_test -->
+                  <span class="method-name">confirm_order_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteCompleta-class-passed -->
+          <div class="suite-SuiteCompleta-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.forgotteh_password_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fogotten_password_test">
+                  </a> <!-- fogotten_password_test -->
+                  <span class="method-name">fogotten_password_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteCompleta-class-passed -->
+          <div class="suite-SuiteCompleta-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.search_and_add_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_realizar_busqueda">
+                  </a> <!-- test_realizar_busqueda -->
+                  <span class="method-name">test_realizar_busqueda</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteCompleta-class-passed -->
+          <div class="suite-SuiteCompleta-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.payment_method_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_payment_method">
+                  </a> <!-- test_payment_method -->
+                  <span class="method-name">test_payment_method</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteCompleta-class-passed -->
+          <div class="suite-SuiteCompleta-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.viewProducts_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_ver_productos">
+                  </a> <!-- test_ver_productos -->
+                  <span class="method-name">test_ver_productos</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteCompleta-class-passed -->
+          <div class="suite-SuiteCompleta-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.billing_details_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="billl_details_test">
+                  </a> <!-- billl_details_test -->
+                  <span class="method-name">billl_details_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteCompleta-class-passed -->
+          <div class="suite-SuiteCompleta-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.add_car_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_agregar_producto">
+                  </a> <!-- test_agregar_producto -->
+                  <span class="method-name">test_agregar_producto</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteCompleta-class-passed -->
+          <div class="suite-SuiteCompleta-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.registerPage_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="continuarRegistro">
+                  </a> <!-- continuarRegistro -->
+                  <span class="method-name">continuarRegistro</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteCompleta-class-passed -->
+        </div> <!-- panel SuiteCompleta -->
+        <div panel-name="test-xml-SuiteCompleta" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/odm/Documents/Proyectos Intellij IDEA/pom-selenium-testng/src/test/resources/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SuiteCompleta&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;FlujoE2E&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.homepage_test&quot;/&gt;
+      &lt;class name=&quot;tests.registerPage_test&quot;/&gt;
+      &lt;class name=&quot;tests.viewProducts_test&quot;/&gt;
+      &lt;class name=&quot;tests.add_car_test&quot;/&gt;
+      &lt;class name=&quot;tests.search_and_add_test&quot;/&gt;
+      &lt;class name=&quot;tests.delete_producto_test&quot;/&gt;
+      &lt;class name=&quot;tests.add_new_product_test&quot;/&gt;
+      &lt;class name=&quot;tests.checkout_options_test&quot;/&gt;
+      &lt;class name=&quot;tests.billing_details_test&quot;/&gt;
+      &lt;class name=&quot;tests.delivery_metohd_test&quot;/&gt;
+      &lt;class name=&quot;tests.payment_method_test&quot;/&gt;
+      &lt;class name=&quot;tests.confirm_order_test&quot;/&gt;
+      &lt;class name=&quot;tests.forgotteh_password_test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FlujoE2E --&gt;
+&lt;/suite&gt; &lt;!-- SuiteCompleta --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SuiteCompleta" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SuiteCompleta</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">FlujoE2E (13 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SuiteCompleta" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SuiteCompleta</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SuiteCompleta" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SuiteCompleta</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SuiteCompleta');
+function tableData_SuiteCompleta() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'continuarRegistro')
+data.setCell(0, 2, 'tests.registerPage_test')
+data.setCell(0, 3, 2738);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginValido')
+data.setCell(1, 2, 'tests.homepage_test')
+data.setCell(1, 3, 2483);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'billl_details_test')
+data.setCell(2, 2, 'tests.billing_details_test')
+data.setCell(2, 3, 2340);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test_payment_method')
+data.setCell(3, 2, 'tests.payment_method_test')
+data.setCell(3, 3, 1152);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test_delivery_metohd')
+data.setCell(4, 2, 'tests.delivery_metohd_test')
+data.setCell(4, 3, 1008);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test_realizar_busqueda')
+data.setCell(5, 2, 'tests.search_and_add_test')
+data.setCell(5, 3, 844);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'confirm_order_test')
+data.setCell(6, 2, 'tests.confirm_order_test')
+data.setCell(6, 3, 809);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test_chekout_options')
+data.setCell(7, 2, 'tests.checkout_options_test')
+data.setCell(7, 3, 786);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test_ver_productos')
+data.setCell(8, 2, 'tests.viewProducts_test')
+data.setCell(8, 3, 682);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'test_realizar_busqueda')
+data.setCell(9, 2, 'tests.delete_producto_test')
+data.setCell(9, 3, 450);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'ver_productos_carrito')
+data.setCell(10, 2, 'tests.add_new_product_test')
+data.setCell(10, 3, 422);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'test_agregar_producto')
+data.setCell(11, 2, 'tests.add_car_test')
+data.setCell(11, 3, 206);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'agrega_nuevo_producto')
+data.setCell(12, 2, 'tests.add_new_product_test')
+data.setCell(12, 3, 166);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'fogotten_password_test')
+data.setCell(13, 2, 'tests.forgotteh_password_test')
+data.setCell(13, 3, 9);
+window.suiteTableData['SuiteCompleta']= { tableData: data, tableDiv: 'times-div-SuiteCompleta'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <div id="times-div-SuiteCompleta">
+              </div> <!-- times-div-SuiteCompleta -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SuiteCompleta" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SuiteCompleta</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SuiteCompleta" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">24 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.add_new_product_test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+                <span class="ignored-method-name">tearDownSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.payment_method_test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.search_and_add_test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.checkout_options_test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+                <span class="ignored-method-name">tearDownSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.viewProducts_test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+                <span class="ignored-method-name">tearDownSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.delivery_metohd_test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.billing_details_test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.delete_producto_test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.add_car_test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.confirm_order_test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.registerPage_test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.forgotteh_password_test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+                <span class="ignored-method-name">tearDownSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SuiteCompleta" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.homepage_test</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUpSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">loginValido</span>
+                <span class="method-start">3577 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.registerPage_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">continuarRegistro</span>
+                <span class="method-start">6069 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.viewProducts_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_ver_productos</span>
+                <span class="method-start">8811 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.add_car_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_agregar_producto</span>
+                <span class="method-start">9495 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.search_and_add_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_realizar_busqueda</span>
+                <span class="method-start">9705 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.delete_producto_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_realizar_busqueda</span>
+                <span class="method-start">10552 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.add_new_product_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">agrega_nuevo_producto</span>
+                <span class="method-start">11006 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ver_productos_carrito</span>
+                <span class="method-start">11174 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.checkout_options_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_chekout_options</span>
+                <span class="method-start">11599 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.billing_details_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">billl_details_test</span>
+                <span class="method-start">12389 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.delivery_metohd_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_delivery_metohd</span>
+                <span class="method-start">14731 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.payment_method_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_payment_method</span>
+                <span class="method-start">15741 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.confirm_order_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">confirm_order_test</span>
+                <span class="method-start">16898 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.forgotteh_password_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">fogotten_password_test</span>
+                <span class="method-start">17711 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.homepage_test</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDownSuite</span>
+                <span class="method-start">22838 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
